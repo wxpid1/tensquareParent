@@ -1,0 +1,7 @@
+GET http://localhost:9090/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-05-29T023934.200.json
+
+###
+
