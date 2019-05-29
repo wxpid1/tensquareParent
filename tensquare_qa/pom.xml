@@ -28,24 +28,5 @@
 		  <groupId>org.springframework.cloud</groupId>
 		  <artifactId>spring-cloud-starter-openfeign</artifactId>
 	  </dependency>
-<<<<<<< HEAD
-	  <dependency>
-		  <groupId>org.springframework.cloud</groupId>
-		  <artifactId>spring-cloud-starter-config</artifactId>
-	  </dependency>
-	  <dependency>
-		  <groupId>org.springframework.cloud</groupId>
-		  <artifactId>spring-cloud-bus</artifactId>
-	  </dependency>
-	  <dependency>
-		  <groupId>org.springframework.cloud</groupId>
-		  <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
-	  </dependency>
-	  <dependency>
-		  <groupId>org.springframework.boot</groupId>
-		  <artifactId>spring-boot-starter-actuator</artifactId>
-	  </dependency>
-=======
->>>>>>> e20378517f0f9c4d51350be57406a2dbbb1cf89f
-  </dependencies>  
+  </dependencies>
 </project>
