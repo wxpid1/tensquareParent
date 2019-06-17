@@ -32,10 +32,12 @@ public class ArticleController {
      * @param page
      * @param size
      * @return
+     *
      */
-    @RequestMapping(value="/search/{keywords}/{page}/{size}",method = RequestMethod.GET)
+    @GetMapping(value="/search/{keywords}/{page}/{size}")
     public Result findByKeywords(@PathVariable String keywords,@PathVariable  int page, @PathVariable  int size){
         PageResult pageResult = articleService.findByKeywords(keywords, page, size);
+        System.out.println(pageResult.getRows());
         return  new Result(true,StatusCode.OK,"查询成功",pageResult);
     }
 

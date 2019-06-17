@@ -20,7 +20,8 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/label")
-@CrossOrigin
+@CrossOrigin //跨域处理
+@RefreshScope //刷新自定义注解
 public class LabelController {
 
     @Autowired

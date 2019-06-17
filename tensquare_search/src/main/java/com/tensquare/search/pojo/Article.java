@@ -8,8 +8,9 @@ import java.io.Serializable;
 
 /**
  * 文章实体类
+ * @author xiaop
  */
-@Document(indexName = "tensquare",type = "article")
+@Document(indexName = "tensquare_article",type = "article")
 public class Article implements Serializable {
 
     @Id

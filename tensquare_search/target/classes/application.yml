@@ -5,7 +5,7 @@ spring:
     name: tensquare-search
   data:
     elasticsearch:
-      cluster-nodes: 192.168.25.128:9300
+      cluster-nodes: 192.168.1.9:9300
 eureka:
   client:
     service-url:

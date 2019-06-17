@@ -19,8 +19,7 @@ public interface LabelClient {
      * @param id
      * @return
      */
-    @RequestMapping(value="/label/{id}",method = RequestMethod.GET)
-    public Result findById(@PathVariable("id") String id);
+    public Result findById(String id);
 
 
 }

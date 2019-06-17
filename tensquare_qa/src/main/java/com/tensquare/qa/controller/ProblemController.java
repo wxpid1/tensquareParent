@@ -8,6 +8,7 @@ import entity.StatusCode;
 import io.jsonwebtoken.Claims;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,6 +25,7 @@ public class ProblemController {
 
 	@Autowired
 	private ProblemService problemService;
+	@Qualifier("labelClientImpl")
 	@Autowired
 	private LabelClient labelClient;
 
