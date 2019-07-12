@@ -39,6 +39,8 @@ public class AdminService {
 	
 	@Autowired
 	private IdWorker idWorker;
+	@Autowired
+	private BCryptPasswordEncoder encoder;
 
 	/**
 	 * 查询全部列表
@@ -82,8 +84,6 @@ public class AdminService {
 		return adminDao.findById(id).get();
 	}
 
-	@Autowired
-	private BCryptPasswordEncoder encoder;
 
 	/**
 	 * 增加

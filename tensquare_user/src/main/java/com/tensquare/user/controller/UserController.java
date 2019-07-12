@@ -34,6 +34,8 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
+	@Autowired
+	private HttpServletRequest request;
 	
 	
 	/**
@@ -111,10 +113,6 @@ public class UserController {
 		userService.update(user);		
 		return new Result(true,StatusCode.OK,"修改成功");
 	}
-
-	@Autowired
-	private HttpServletRequest request;
-
 
 
 	/**

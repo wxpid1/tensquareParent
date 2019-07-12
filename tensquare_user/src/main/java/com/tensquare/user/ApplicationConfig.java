@@ -12,8 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 @Configuration
 public class ApplicationConfig extends WebMvcConfigurationSupport{
 
-    @Autowired
-    private JwtFilter jwtFilter;
+    @Autowired JwtFilter jwtFilter;
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
