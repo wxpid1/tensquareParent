@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://gitee.com/GitXiaoPing/tensquare_parent.git
   rabbitmq:
-    host: 192.168.1.9
+    host: 192.168.3.158
 management: #暴露触发消息总线的地址
   endpoints:
     web:

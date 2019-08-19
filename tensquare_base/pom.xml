@@ -30,7 +30,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <dependency>    
+       <!-- <dependency>    
               <groupId>org.springframework.cloud</groupId>        
               <artifactId>spring-cloud-bus</artifactId>        
         </dependency>    
@@ -38,11 +38,11 @@
               <groupId>org.springframework.cloud</groupId>        
               <artifactId>spring-cloud-stream-binder-rabbit</artifactId>        
         </dependency>
-        <!--bus 监听-->   
+        &lt;!&ndash;bus 监听&ndash;&gt;   
           <dependency>    
               <groupId>org.springframework.boot</groupId>        
               <artifactId>spring-boot-starter-actuator</artifactId>        
-          </dependency>
+          </dependency>-->
     </dependencies>
 
 </project>
